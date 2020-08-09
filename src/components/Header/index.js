@@ -15,7 +15,7 @@ export const Header = () => (
       </Grid>
       <Grid item>
         <Typography variant="h1" align="center" style={STYLES.TITLE}>Stephany Nusch</Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary" style={STYLES.SUBTITLE}>Get to know me better!</Typography>
+        <Typography variant="subtitle1" align="center" color="textSecondary" style={STYLES.SUBTITLE}>Software Engineer</Typography>
         <Grid spacing={1} justify="center" container>
           {CHARACTERISTICS.map((item, index) => (
             <Grid key={index} item>

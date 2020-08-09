@@ -6,17 +6,25 @@ import { STYLES } from '../../utils/constants';
 
 export const About = ({ setProgress, isVisible }) => {
   useEffect(() => {
-    isVisible && setProgress(25);
+    isVisible && setProgress(20);
   });
 
   return (
     <Grid item>
-      <Typography variant="h3" style={STYLES.SECTION} gutterBottom>About me</Typography>
-      <Typography>
-        I work as a Software Engineer and am constantly studying to keep up with the latest technologies and Design Patterns.
-        I am also familiar with UX concepts and Agile methodology. My goal is to broaden my possibilities as a professional and to
-        challenge myself into looking for the smartest solutions. I am passionate about learning and am widely open to every
-        opportunity to develop my technical skills.
+      <Typography variant="h3" style={STYLES.SECTION} gutterBottom>Introduction</Typography>
+      <Typography variant="body1" paragraph>
+        Hello, there. My name is Stephany and I am a Brazilian Software Engineer, more specifically located in the city of São Paulo.
+        I graduated in the first semester of 2016 at FATEC Rubens Lara and have been collecting professional experience since then.
+        </Typography>
+
+      <Typography variant="body1" paragraph>
+        I am passionate about coding and am always studying in order to learn something new and find ways to improve my skills.
+        My goal is to broaden my possibilities as a professional and to challenge myself into looking for the smartest solutions.
+        I just love learning and am widely open to every opportunity to evolve both technically and personally.
+      </Typography>
+
+      <Typography variant="body1">
+        Diversity and inclusion are topics that hold my interest and I value initiatives with the goal to decrease current the inequality in tech.
       </Typography>
     </Grid>
   );

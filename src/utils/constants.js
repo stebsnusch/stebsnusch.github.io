@@ -18,5 +18,9 @@ export const STYLES = Object.freeze({
     SECTION: {
       fontSize: 25,
       fontWeight: 600,
+    },
+    SUBSECTION: {
+      fontSize: 20,
+      fontWeight: 600,
     }
   })

@@ -9,7 +9,7 @@ import { SKILLS } from './constants';
 
 export const Skills = ({ setProgress, isVisible }) => {
   useEffect(() => {
-    isVisible && setProgress(50);
+    isVisible && setProgress(40);
   });
 
 
