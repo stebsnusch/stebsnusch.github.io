@@ -3,14 +3,15 @@ import React from 'react';
 import {
   Typography,
   Box,
-  Grid
+  Grid,
+  withWidth,
 } from '@material-ui/core';
 
-import { STYLES } from '../../utils/constants';
+import { STYLES, isMobile } from '../../utils/constants';
 import { SKILLS } from './constants';
 import { renderSkills } from './renderSkills';
 
-export const About = () => (
+export const About = ({ width }) => (
   <Box
     style={STYLES.FULLHEIGHT}
     display="flex"
@@ -19,7 +20,7 @@ export const About = () => (
   >
     <Box style={STYLES.WHITE_TEXT}>
       <Typography variant="h3" color="primary" gutterBottom>
-        <Box letterSpacing={15} my={5}>
+        <Box letterSpacing={isMobile(width) ? 0 : 15} my={5}>
           <strong>about.</strong>
         </Box>
       </Typography>
@@ -41,7 +42,7 @@ export const About = () => (
 
 
       <Typography variant="h3" color="primary" gutterBottom>
-        <Box letterSpacing={15} my={5}>
+        <Box letterSpacing={isMobile(width) ? 0 : 15} my={5}>
           <strong>skills.</strong>
         </Box>
       </Typography>
@@ -52,3 +53,5 @@ export const About = () => (
     </Box>
   </Box>
 );
+
+export default withWidth()(About);

@@ -5,12 +5,12 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-import { Header } from './components/Header';
-import { About } from './components/About';
-import { Experience } from './components/Experience';
-import { Footer } from './components/Footer';
-import { Projects } from './components/Projects';
-import { Articles } from './components/Articles';
+import Header from './components/Header';
+import About from './components/About';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
+import Articles from './components/Articles';
 import { STYLES } from './utils/constants';
 
 function App() {

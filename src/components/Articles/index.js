@@ -8,18 +8,19 @@ import {
   ListItemAvatar,
   Avatar,
   Container,
-  Box
+  Box,
+  withWidth,
 } from '@material-ui/core';
 import StyledLink from './StyledLink';
 import DescriptionIcon from '@material-ui/icons/Description';
-import { STYLES } from '../../utils/constants';
+import { STYLES, isMobile } from '../../utils/constants';
 import { HeadingDivider } from '../../utils/HeadingDivider';
 import { ARTICLES } from './constants';
 
-export const Articles = () => (
+export const Articles = ({ width }) => (
   <Container style={STYLES.FULLHEIGHT}>
-    <Box py={20}>
-      <Box letterSpacing={15}>
+    <Box py={10}>
+      <Box letterSpacing={isMobile(width) ? 0 : 15}>
         <Typography variant="h3" gutterBottom>
           <strong>ARTICLES</strong>
         </Typography>
@@ -57,3 +58,5 @@ export const Articles = () => (
     </Box>
   </Container>
 );
+
+export default withWidth()(Articles);

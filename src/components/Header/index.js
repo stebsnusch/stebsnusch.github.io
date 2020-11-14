@@ -1,4 +1,6 @@
 import React from 'react';
+import withWidth from '@material-ui/core/withWidth';
+
 import {
   Box,
   Container,
@@ -8,10 +10,10 @@ import {
 } from '@material-ui/core';
 import { CHARACTERISTICS } from './constants';
 import { renderCharacteristics } from './renderCharacteristics';
-import { STYLES } from '../../utils/constants';
+import { STYLES, isMobile } from '../../utils/constants';
 import { HeadingDivider } from '../../utils/HeadingDivider';
 
-export const Header = () => (
+export const Header = ({ width }) => (
   <Container>
     <Box py={8} height="100%" style={STYLES.FULLHEIGHT} display="flex" alignItems="center">
       <Grid container spacing={2} alignItems="center">
@@ -19,17 +21,17 @@ export const Header = () => (
           <Avatar
             src={require('../../assets/profile_pic.jpg')}
             alt="Stephany Nusch -  Girl mdiling at the camera"
-            style={STYLES.AVATAR}
+            style={isMobile(width) ? STYLES.AVATAR_MOBILE : STYLES.AVATAR}
           />
         </Grid>
         <Grid item sm={12} md={8}>
           <Typography variant="h1" align="left">
-            <Box letterSpacing={15} fontWeight="600">
+            <Box letterSpacing={isMobile(width) ? 0 : 15} fontWeight="600">
               Stephany Nusch
           </Box>
           </Typography>
           <Typography variant="h3" align="left" color="textSecondary">
-            <Box letterSpacing={15}>
+            <Box letterSpacing={isMobile(width) ? 0 : 15}>
               <strong>software engineer.</strong>
             </Box>
           </Typography>
@@ -44,3 +46,4 @@ export const Header = () => (
   </Container>
 );
 
+export default withWidth()(Header);

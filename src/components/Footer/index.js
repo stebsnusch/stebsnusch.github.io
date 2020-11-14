@@ -7,11 +7,12 @@ import {
   Box,
   Container,
   Link,
+  withWidth,
 } from '@material-ui/core';
-import { STYLES } from '../../utils/constants';
+import { STYLES, isMobile } from '../../utils/constants';
 import { SOCIAL_MEDIA } from './constants';
 
-export const Footer = () => (
+export const Footer = ({ width }) => (
   <Container component="footer">
     <Box
       display="flex"
@@ -23,7 +24,7 @@ export const Footer = () => (
       py={10}
     >
       <Typography variant="h3" color="primary" gutterBottom>
-        <Box letterSpacing={15}>
+        <Box letterSpacing={isMobile(width) ? 0 : 15}>
           <strong>contact me.</strong>
         </Box>
       </Typography>
@@ -64,3 +65,5 @@ export const Footer = () => (
     </Box>
   </Container>
 );
+
+export default withWidth()(Footer);

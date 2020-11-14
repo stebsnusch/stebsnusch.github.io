@@ -1,8 +1,13 @@
+import { isWidthDown } from '@material-ui/core/withWidth';
 
 export const STYLES = Object.freeze({
   AVATAR: {
     height: '350px',
     width: '350px',
+  },
+  AVATAR_MOBILE: {
+    height: '200px',
+    width: '200px',
   },
   FULLHEIGHT: {
     minHeight: '100vh',
@@ -26,3 +31,5 @@ export const STYLES = Object.freeze({
 });
 
 export const GITHUB_PROFILE = 'https://github.com/stebsnusch';
+
+export const isMobile = (width) => isWidthDown('sm', width);

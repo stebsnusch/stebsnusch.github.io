@@ -1,20 +1,20 @@
 import React from 'react';
-
 import {
   Grid,
   Typography,
   Button,
   Container,
   Box,
+  withWidth,
 } from '@material-ui/core';
-import { STYLES, GITHUB_PROFILE } from '../../utils/constants';
+import { STYLES, GITHUB_PROFILE, isMobile } from '../../utils/constants';
 import { PROJECTS } from './constants';
 import { renderProjects } from './renderProjects';
 
-export const Projects = () => (
+export const Projects = ({ width }) => (
   <Container style={STYLES.FULLHEIGHT}>
-    <Box py={20}>
-      <Box pb={5} letterSpacing={15}>
+    <Box py={10}>
+      <Box pb={5} letterSpacing={isMobile(width) ? 0 : 15}>
         <Typography variant="h3" color="primary" gutterBottom>
           <strong>projects.</strong>
         </Typography>
@@ -30,7 +30,7 @@ export const Projects = () => (
         justify="center"
         alignItems="flex-start"
         alignContent="center"
-        spacing={5}
+        spacing={isMobile(width) ? 2 : 5}
         container>
         {PROJECTS.map(renderProjects)}
         <Grid xs={6} item>
@@ -47,3 +47,5 @@ export const Projects = () => (
     </Box>
   </Container>
 );
+
+export default withWidth()(Projects);
