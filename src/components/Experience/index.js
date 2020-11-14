@@ -20,8 +20,6 @@ export const Experience = ({ width }) => {
 
   const handleChange = (e) => setCompany(e.target.value);
 
-  console.log(isMobile(width));
-
   return (
     <Container style={STYLES.FULLHEIGHT}>
       <Box py={10} display="flex" flexDirection="column" justifyItems="center">
