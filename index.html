@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/styles.css" rel="stylesheet" />
+  <script src="assets/scripts.js"></script>
+  <title>Stephany Nusch - Softwaree Engineer</title>
+</head>
+
+<body>
+  <main id="content">
+    <section id="home">
+      <div id="info" class="col-6">
+        <h1>Stephany Nusch</h1>
+        <h2>Software Engineer</h2>
+        <h4>contact@stebs.dev</h4>
+        <div id="social">
+          <a href="https://github.com/stebsnusch" target="_blank"><img src="assets/images/038-github.svg" /></a>
+          <a href="https://twitter.com/stephanycodes" target="_blank"><img src="assets/images/043-twitter.svg" /></a>
+          <a href="https://medium.com/@stephanynusch" target="_blank"><img src="assets/images/medium.svg" /></a>
+        </div>
+      </div>
+      <div id="menu" class="col-6">
+        <ul id="links">
+          <li><a onclick="toggleSection('about')" class="item">About</a></li>
+          <li><a onclick="toggleSection('projects')" class="item">Projects</a></li>
+          <li><a href="assets/STEPHANY_NUSCH_RESUME.pdf" target="_blank" class="item">Resume</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="about" class="secondary col-12 hidden">
+      <div class="button-wrapper">
+        <button class="back" onclick="goBack('about')">
+          < </button>
+      </div>
+      <h2>about me</h2>
+      <p>Hello, there. My name is Stephany (she/her), and I am a Brazilian Software Engineer, more specifically located
+        in the city of São Paulo. I graduated in the first semester of 2016 at FATEC Rubens Lara and have been
+        collecting professional experience since then.</p>
+
+      <p>I am passionate about coding and am always studying to learn something new and find ways to improve my skills.
+        My goal is to broaden my possibilities as a professional and to challenge myself to look for the smartest
+        solutions. I love learning and am widely open to every opportunity to evolve technically and personally.</p>
+
+      <p>Diversity and inclusion are topics that hold my interest, and I value initiatives to decrease the current
+        inequality in tech.</p>
+    </section>
+    <section id="projects" class="secondary col-12 hidden">
+      <div class="button-wrapper">
+        <button class="back" onclick="goBack('projects')">
+          < </button>
+      </div>
+      <h2>personal projects</h2>
+      <div id="project-list">
+        <div class="project">
+          <h3>Spotify Card Deck</h3>
+          <p>An integration with Spotify's API built with VueJS to generate a card deck
+            based on your listening habits.</p>
+          <a class="project-link" href="/" target="_blank">Visit</a>
+        </div>
+        <div class="project">
+          <h3>Minesweeper</h3>
+          <p>A simple minesweeper game built with Vanilla Javascript.</p>
+          <a class="project-link" href="/" target="_blank">Visit</a>
+        </div>
+        <div class="project">
+          <h3>Portfolio</h3>
+          <p>This very page, made completely with raw CSS, HTML5 and Javascript.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

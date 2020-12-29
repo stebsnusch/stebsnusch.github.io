@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #222;
+  color: white;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.logo {
+  color: white;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #222;
+  background: #fff3d1;
+}
+
+::selection {
+  color: #222;
+  background: #fff3d1;
+}
+
+#content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.col-12 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.col-6 {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+#info {
+  text-align: right;
+}
+
+#social img {
+  height: 30px;
+}
+
+#menu {
+  font-size: 2em;
+}
+
+#menu a {
+  position: relative;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#menu a:hover.item::after {
+  width: 100px;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.item::after {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 0;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  bottom: -1px;
+  right: -20px;
+  z-index: -1;
+  transition: width .5s;
+}
+
+#links {
+  border-left: 2px solid white;
+  padding-left: 32px;
+}
+
+.secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1024px;
+  min-height: 100vh;
+}
+
+.secondary h2 {
+  font-weight: 700;
+  font-size: 2.3em;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.secondary h2::before {
+  content: '';
+  position: absolute;
+  height: 50%;
+  width: 50px;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  left: -10px;
+  bottom: -5px;
+  z-index: -1;
+}
+
+.secondary p {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.button-wrapper {
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  position: relative;
+  background: white;
+  padding: 3px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: background 500ms ease-in-out;
+}
+
+.button-wrapper:hover {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+button.back {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  font-size: 1.6em;
+  color: white;
+  border: none;
+  padding: 10px;
+  background: #222;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+#project-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project {
+  max-width: 300px;
+}
+
+.project-link {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.3em;
+}
+
+.project-link:hover::after {
+  width: 100%;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.project-link::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: width .5s;
+}
+
+@media screen and (max-width: 600px) {
+  #home {
+    flex-direction: column;
+  }
+  #info, #menu {
+    width: 100%;
+    text-align: center;
+  }
+  #menu a::after {
+    width: 100px;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  }
+  #links {
+    border-left: none;
+    padding: 0;
+  }
+  
+  #project-list {
+    flex-direction: column;
+  }
+  .project{
+    width: 100%;
+    max-width: none;
+    margin-bottom: 30px;
+  }
+}
