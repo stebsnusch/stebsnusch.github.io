@@ -84,7 +84,7 @@ h4 {
   background: #fff3d1;
 }
 
-#content {
+main {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -189,37 +189,39 @@ h4 {
 }
 
 .button-wrapper {
-  width: 60px;
-  height: 60px;
+  width: 20px;
+  height: 20px;
   padding: 1rem;
   position: relative;
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-  padding: 3px;
-  border-radius: 50%;
-  margin-bottom: 20px;
+  padding: 5px;
   transition: background 500ms ease-in-out;
+  transform: rotate(-45deg);
+}
+
+.content {
+  margin-top: 50px;
 }
 
 button.back {
-  height: 100%;
-  width: 100%;
-  position: relative;
+  height: 50px;
+  width: 31px;
   font-size: 1.6em;
   color: white;
   border: none;
   padding: 10px;
   background: #222;
   cursor: pointer;
-  border-radius: 50%;
-  padding: 3px;
+  overflow: hidden;
 }
 .go-back{
   position: absolute;
   display: block;
   width: 300px;
   text-align: left;
-  left: 20px;
-  bottom: 16px;
+  left: -15px;
+  bottom: -116px;
+  transform: rotate(45deg);
 }
 
 .go-back::after{
@@ -297,5 +299,9 @@ button.back {
     width: 100%;
     max-width: none;
     margin-bottom: 30px;
+  }
+
+  .col-12{
+    padding: 32px;
   }
 }
