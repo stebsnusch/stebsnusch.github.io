@@ -193,15 +193,11 @@ h4 {
   height: 60px;
   padding: 1rem;
   position: relative;
-  background: white;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   padding: 3px;
   border-radius: 50%;
   margin-bottom: 20px;
   transition: background 500ms ease-in-out;
-}
-
-.button-wrapper:hover {
-  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
 button.back {
@@ -216,6 +212,30 @@ button.back {
   cursor: pointer;
   border-radius: 50%;
   padding: 3px;
+}
+.go-back{
+  position: absolute;
+  display: block;
+  width: 300px;
+  text-align: left;
+  left: 20px;
+  bottom: 16px;
+}
+
+.go-back::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 20px;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  transition: width .5s;
+  right: 180px;
+  bottom: -4px;
+  z-index: -1;
+}
+
+.go-back:hover::after{
+  width: 50px;
 }
 
 #project-list {
