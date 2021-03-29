@@ -18,7 +18,7 @@ export const ExperienceBackground = styled.div`
 	background-repeat: no-repeat;
 	background-size: cover;
 	top: 0;
-	left: -300px;
+	left: 0;
 	z-index: 1;
 	animation: ${translateY} 1s ease;
 `;
