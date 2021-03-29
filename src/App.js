@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useState } from "react";
+import "intersection-observer";
+import { withTheme } from "@material-ui/core/styles";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { SECTIONS } from "./commons/constants";
+import SectionBox from "./commons/components/SectionBox";
+import { Menu } from "./commons/components/Menu";
+import { MenuList } from "./commons/components/MenuList";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = ({ theme }) => {
+	const [open, setOpen] = useState(false);
+	const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+	const toggleMenu = () => setOpen(!open);
+	return (
+		<Fragment>
+			<Menu openMenu={toggleMenu} theme={theme} />
+			{SECTIONS.map((section, index) => (
+				<SectionBox
+					key={index}
+					backgroundcolor={section.backgroundColor}
+					id={section.id}
+					isMobile={isMobile}
+					theme={theme}
+				>
+					<section.component />
+				</SectionBox>
+			))}
+			<MenuList
+				open={open}
+				toggleMenu={toggleMenu}
+				theme={theme}
+				isMobile={isMobile}
+			/>
+		</Fragment>
+	);
+};
 
-export default App;
+export default withTheme(App);
