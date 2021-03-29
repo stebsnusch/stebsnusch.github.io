@@ -14,7 +14,7 @@ import { TitleBox } from "./components/TitleBox";
 
 export const Home = ({ theme }) => {
 	const nodeRef = useRef();
-	const isVisible = useIsVisible(nodeRef);
+	const isVisible = useIsVisible(nodeRef, { once: true });
 	const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 	const isTablet = useMediaQuery(theme.breakpoints.between("sm", "md"));
 

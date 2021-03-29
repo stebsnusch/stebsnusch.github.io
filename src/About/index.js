@@ -9,7 +9,7 @@ import { AboutContainer } from "./components/AboutContainer";
 
 export const About = ({ theme }) => {
 	const nodeRef = useRef();
-	const isVisible = useIsVisible(nodeRef);
+	const isVisible = useIsVisible(nodeRef, { once: true });
 	const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
 	return (

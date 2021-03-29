@@ -15,7 +15,7 @@ import { CompanyCard } from "./components/companyCard";
 
 export const Experience = ({ theme }) => {
 	const nodeRef = useRef();
-	const isVisible = useIsVisible(nodeRef);
+	const isVisible = useIsVisible(nodeRef, { once: true });
 	const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
 	return (

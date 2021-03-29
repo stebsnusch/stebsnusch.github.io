@@ -20,7 +20,7 @@ import { ProjectCard } from "./components/ProjectCard";
 
 export const Projects = ({ theme }) => {
 	const nodeRef = useRef();
-	const isVisible = useIsVisible(nodeRef);
+	const isVisible = useIsVisible(nodeRef, { once: true });
 	const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
 	const sliderSettings = {
