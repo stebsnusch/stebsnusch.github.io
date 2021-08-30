@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Stephany Nusch</title>
+    <link>https://stebs.dev/pt/tags/</link>
+    <description>Recent content in Tags on Stephany Nusch</description>
+    <image>
+      <url>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stebs.dev/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>desenvolvimento web</title>
+      <link>https://stebs.dev/pt/tags/desenvolvimento-web/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/desenvolvimento-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>epic react</title>
+      <link>https://stebs.dev/pt/tags/epic-react/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/epic-react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://stebs.dev/pt/tags/react/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>carreira</title>
+      <link>https://stebs.dev/pt/tags/carreira/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/carreira/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soft skills</title>
+      <link>https://stebs.dev/pt/tags/soft-skills/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/soft-skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>brotopia</title>
+      <link>https://stebs.dev/pt/tags/brotopia/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/brotopia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>igualdade de gênero</title>
+      <link>https://stebs.dev/pt/tags/igualdade-de-g%C3%AAnero/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/igualdade-de-g%C3%AAnero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mulheres em tecnologia</title>
+      <link>https://stebs.dev/pt/tags/mulheres-em-tecnologia/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/mulheres-em-tecnologia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resenha de livro</title>
+      <link>https://stebs.dev/pt/tags/resenha-de-livro/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/resenha-de-livro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code reviews</title>
+      <link>https://stebs.dev/pt/tags/code-reviews/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/code-reviews/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
