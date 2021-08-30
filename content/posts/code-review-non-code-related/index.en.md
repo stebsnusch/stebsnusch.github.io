@@ -7,7 +7,7 @@ categories: ["carreira"]
 tags: ["code reviews", "soft skills"]
 draft: false
 cover:
-  image: "images/image-1.jpeg"
+  image: "images/image-1.jpeg" 
 ---
 
 ![Illustration of a person surrounded by speech bubbles](images/image-1.jpeg)
