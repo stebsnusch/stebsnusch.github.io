@@ -2,7 +2,7 @@
 title: "Resenha do livro: Brotopia — Breaking up the Boys' Club of Silicon Valley"
 date: "2021-02-05"
 draft: false
-tags: ["igualdade de gênero", "brotopia", "mulheres em tecnologia", "resenha de livro"]
+tags: ["igualdade de gênero", "brotopia", "mulheres em tecnologia", "resenha de livro", "livros"]
 categories: ["resenhas de livros"]
 cover:
   image: "images/brotopia-1.jpeg"

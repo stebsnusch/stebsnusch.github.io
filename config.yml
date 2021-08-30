@@ -111,6 +111,8 @@ params:
           url: "https://github.com/stebsnusch/"
         - name: linkedin
           url: "https://www.linkedin.com/in/stephanynusch/"
+        - name: email
+          url: mailto:contact@stebs.dev
 
     #analytics:
     #    google:
