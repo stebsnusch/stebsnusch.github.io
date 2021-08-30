@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>epic react on Stephany Nusch</title>
+    <link>https://stebs.dev/pt/tags/epic-react/</link>
+    <description>Recent content in epic react on Stephany Nusch</description>
+    <image>
+      <url>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stebs.dev/pt/tags/epic-react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jornada Epic React #1:  Intro &amp; React Fundamentals</title>
+      <link>https://stebs.dev/pt/posts/epic-react-journey-1/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/posts/epic-react-journey-1/</guid>
+      <description>Primeiro de uma série de posts sobre o curso Epic React, de Kent C. Dodds.</description>
+    </item>
+    
+  </channel>
+</rss>
