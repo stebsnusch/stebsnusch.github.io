@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>resenha de livro on Stephany Nusch</title>
+    <link>https://stebs.dev/pt/tags/resenha-de-livro/</link>
+    <description>Recent content in resenha de livro on Stephany Nusch</description>
+    <image>
+      <url>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stebs.dev/pt/tags/resenha-de-livro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resenha do livro: Brotopia — Breaking up the Boys&#39; Club of Silicon Valley</title>
+      <link>https://stebs.dev/pt/posts/brotopia-review/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/posts/brotopia-review/</guid>
+      <description>Brotopia - Breaking up the Boys’ Club of Silicon Valley  De videogames a naves espaciais, a tecnologia desempenhou um grande papel na sociedade moderna. Homens poderosos que lideram o movimento são frequentemente celebrados e reconhecidos como a cara da indústria de tecnologia. No entanto, você já se perguntou por que quase nenhuma mulher chega às manchetes?
+Sendo eu mesma uma Engenheira de Software, lutei muito contra o estereótipo que se esperava de mim.</description>
+    </item>
+    
+  </channel>
+</rss>

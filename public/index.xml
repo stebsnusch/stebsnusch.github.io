@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Stephany Nusch</title>
+    <link>https://stebs.dev/</link>
+    <description>Recent content on Stephany Nusch</description>
+    <image>
+      <url>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stebs.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Epic React Journey #1:  Intro &amp; React Fundamentals</title>
+      <link>https://stebs.dev/posts/epic-react-journey-1/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/posts/epic-react-journey-1/</guid>
+      <description>First of a series of posts about Kent C. Dodds&amp;#39; Epic React course.</description>
+    </item>
+    
+    <item>
+      <title>5 Soft Skills tips for Software Developers</title>
+      <link>https://stebs.dev/posts/5-soft-skills-for-devs/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/posts/5-soft-skills-for-devs/</guid>
+      <description>Image Credits - Priscilla Du Preez on Unsplash  As the Software Engineer role grows in popularity and everyone gets themselves into technical bootcamps, it’s also common to see companies saying that Soft Skills are also an important factor when considering a candidate for a position. But what are those, and why do people seem to have a hard time giving concrete examples?
+What are Soft Skills? According to the Collins English Dictionary, the term is defined as:</description>
+    </item>
+    
+    <item>
+      <title>Book Review: Brotopia — Breaking up the Boys&#39; Club of Silicon Valley</title>
+      <link>https://stebs.dev/posts/brotopia-review/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/posts/brotopia-review/</guid>
+      <description>Brotopia - Breaking up the Boys’ Club of Silicon Valley  From video games to spaceships, technology&amp;rsquo;s played a big role in modern society. Powerful men leading the movement are often celebrated and recognized as the face of the tech industry. However, have you ever asked yourself why almost no women make it to the headlines?
+Being a female Software Engineer myself, I struggled a lot with the stereotype that was expected from me.</description>
+    </item>
+    
+    <item>
+      <title>Everything non-code-related I learned while writing guidelines about Code Reviews</title>
+      <link>https://stebs.dev/posts/code-review-non-code-related/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/posts/code-review-non-code-related/</guid>
+      <description>Um pouco do meu processo de aprendizado fora do campo técnico</description>
+    </item>
+    
+  </channel>
+</rss>
