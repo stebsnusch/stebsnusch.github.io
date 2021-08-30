@@ -1,0 +1,12 @@
+{{ if .Title }}
+  <figure style="display: flex; flex-direction: column; justify-content: center;">
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+      <figcaption style="text-align: center; font-style: italic; font-weight: 300;">
+        {{ .Title }}</figcaption>
+  </figure>
+{{ else }}
+  <div style="display: flex; flex-direction: column; justify-content: center;">
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+  </div>
+  
+{{ end }}

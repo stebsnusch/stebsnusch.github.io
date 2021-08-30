@@ -1,0 +1,148 @@
+baseURL: "https://stebs.dev/"
+title: Stephany Nusch
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+languages:
+  en:
+    languageName: English
+    weight: 10
+    homeInfoParams:
+      Title: "Hi there \U0001F44B"
+      Content: My name is Stephany. I am a Brazilian software engineer living in São Paulo 🇧🇷. In this blog, you'll find content about frontend, Javascript, career, and other tech-related stuff.
+    menu:
+      main:
+        - identifier: categories
+          name: categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+
+  pt:
+    languageName: Português
+    weight: 20
+    homeInfoParams:
+      Title: "Olá \U0001F44B"
+      Content: Meu nome é Stephany. Sou uma engenheira de software brasileira, morando em São Paulo 🇧🇷. Neste blog, você encontrará conteúdo sobre front-end, Javascript, carreira e outras coisas relacionadas à tecnologia.
+    menu:
+      main:
+        - identifier: categories
+          name: categorias
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Stephany Nusch
+    description: "Tech blog"
+    keywords: [Blog, Portfolio, PaperMod]
+    author: Me
+    # author: ["Me", "You"] # multiple authors
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "January 2, 2006"
+    defaultTheme: dark # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "<link / abs url>"
+        favicon16x16: "<link / abs url>"
+        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "<link / abs url>"
+        safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Stephany"
+        #icon: /apple-touch-icon.png
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: false # needs to be explicitly set
+        title: Stephany Nusch
+        subtitle: "Tech Blog"
+        imageUrl: "<img location>"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+            - name: Posts
+              url: posts
+            - name: Tags
+              url: tags
+
+    # home-info mode
+   
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/stephdotjs"
+        - name: github
+          url: "https://github.com/stebsnusch/"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/stephanynusch/"
+
+    #analytics:
+    #    google:
+    #        SiteVerificationTag: "XYZabc"
+    #    bing:
+    #        SiteVerificationTag: "XYZabc"
+    #    yandex:
+    #        SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
