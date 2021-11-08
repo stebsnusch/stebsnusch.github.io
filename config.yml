@@ -29,6 +29,14 @@ languages:
           name: tags
           url: /tags/
           weight: 20
+        - identifier: about
+          name: about
+          url: /about/
+          weight: 20
+        - identifier: faq
+          name: faq
+          url: /faq/
+          weight: 20
 
   pt:
     languageName: Português
@@ -45,6 +53,14 @@ languages:
         - identifier: tags
           name: tags
           url: /tags/
+          weight: 20
+        - identifier: sobre
+          name: sobre
+          url: /about/
+          weight: 20
+        - identifier: perguntas
+          name: perguntas
+          url: /faq/
           weight: 20
 
 params:
