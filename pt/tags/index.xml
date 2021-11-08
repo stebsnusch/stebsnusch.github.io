@@ -9,7 +9,34 @@
       <link>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stebs.dev/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stebs.dev/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>igualdade de gênero</title>
+      <link>https://stebs.dev/pt/tags/igualdade-de-g%C3%AAnero/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/igualdade-de-g%C3%AAnero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mulheres em tecnologia</title>
+      <link>https://stebs.dev/pt/tags/mulheres-em-tecnologia/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/mulheres-em-tecnologia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soft skills</title>
+      <link>https://stebs.dev/pt/tags/soft-skills/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/pt/tags/soft-skills/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>desenvolvimento web</title>
       <link>https://stebs.dev/pt/tags/desenvolvimento-web/</link>
@@ -47,15 +74,6 @@
     </item>
     
     <item>
-      <title>soft skills</title>
-      <link>https://stebs.dev/pt/tags/soft-skills/</link>
-      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://stebs.dev/pt/tags/soft-skills/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>brotopia</title>
       <link>https://stebs.dev/pt/tags/brotopia/</link>
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
@@ -65,29 +83,11 @@
     </item>
     
     <item>
-      <title>igualdade de gênero</title>
-      <link>https://stebs.dev/pt/tags/igualdade-de-g%C3%AAnero/</link>
-      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://stebs.dev/pt/tags/igualdade-de-g%C3%AAnero/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>livros</title>
       <link>https://stebs.dev/pt/tags/livros/</link>
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://stebs.dev/pt/tags/livros/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mulheres em tecnologia</title>
-      <link>https://stebs.dev/pt/tags/mulheres-em-tecnologia/</link>
-      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://stebs.dev/pt/tags/mulheres-em-tecnologia/</guid>
       <description></description>
     </item>
     

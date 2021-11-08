@@ -9,7 +9,16 @@
       <link>https://stebs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stebs.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stebs.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How self-awareness helped my career development</title>
+      <link>https://stebs.dev/posts/self-awareness/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/posts/self-awareness/</guid>
+      <description>The fact that I&amp;rsquo;d end up working in tech came as no surprise to me nor to anyone who knew me. I&amp;rsquo;ve always been curious and enthusiastic about the infinite possibilities that a computer or video game presented. To create and learn is what moves me and, for sure, is what brought me here. However, I was definitely not ready for all the obstacles waiting for me in this journey.</description>
+    </item>
+    
     <item>
       <title>Epic React Journey #1:  Intro &amp; React Fundamentals</title>
       <link>https://stebs.dev/posts/epic-react-journey-1/</link>
@@ -46,6 +55,29 @@ Being a female Software Engineer myself, I struggled a lot with the stereotype t
       
       <guid>https://stebs.dev/posts/code-review-non-code-related/</guid>
       <description>Um pouco do meu processo de aprendizado fora do campo técnico</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://stebs.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/about/</guid>
+      <description>Stephany Beatriz Silva Nusch (she/her), born on May 20, 1995, in Santos, Brazil. I consider myself a creative person who wishes to live life with intention.
+Gender equality and social causes focused on the inclusion of minorities are part of my life&amp;rsquo;s purpose.
+I currently work at Microsoft as a Software Engineer specializing in front-end. I am obsessed with the Internet and how it works, so experimenting with new technologies is a lot of fun for me.</description>
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>https://stebs.dev/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stebs.dev/faq/</guid>
+      <description>I&amp;rsquo;ve gathered on this page some questions that I get frequently. I hope something here can help you!
+Hi, how are you? I&amp;rsquo;m good. Thanks for asking!
+What&amp;rsquo;s the best way to get in touch with you? Message me on LinkedIn or send an email.
+How to get started in programming? Do you need a degree? I started in college, but you don&amp;rsquo;t necessarily have to do the same. There are resources all over the internet that can make you a market-ready developer.</description>
     </item>
     
   </channel>

@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://stebs.dev/pt/categories/carreira/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stebs.dev/categories/carreira/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://stebs.dev/pt/categories/carreira/"
+                />
+  </url><url>
     <loc>https://stebs.dev/pt/categories/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +26,77 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://stebs.dev/pt/categories/"
+                />
+  </url><url>
+    <loc>https://stebs.dev/pt/posts/self-awareness/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stebs.dev/posts/self-awareness/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://stebs.dev/pt/posts/self-awareness/"
+                />
+  </url><url>
+    <loc>https://stebs.dev/pt/tags/igualdade-de-g%C3%AAnero/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://stebs.dev/pt/tags/mulheres-em-tecnologia/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://stebs.dev/pt/posts/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stebs.dev/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://stebs.dev/pt/posts/"
+                />
+  </url><url>
+    <loc>https://stebs.dev/pt/tags/soft-skills/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stebs.dev/tags/soft-skills/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://stebs.dev/pt/tags/soft-skills/"
+                />
+  </url><url>
+    <loc>https://stebs.dev/pt/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stebs.dev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://stebs.dev/pt/"
+                />
+  </url><url>
+    <loc>https://stebs.dev/pt/tags/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stebs.dev/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://stebs.dev/pt/tags/"
                 />
   </url><url>
     <loc>https://stebs.dev/pt/tags/desenvolvimento-web/</loc>
@@ -47,19 +131,6 @@
                 href="https://stebs.dev/pt/posts/epic-react-journey-1/"
                 />
   </url><url>
-    <loc>https://stebs.dev/pt/posts/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stebs.dev/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://stebs.dev/pt/posts/"
-                />
-  </url><url>
     <loc>https://stebs.dev/pt/tags/react/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -71,32 +142,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://stebs.dev/pt/tags/react/"
-                />
-  </url><url>
-    <loc>https://stebs.dev/pt/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stebs.dev/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://stebs.dev/pt/"
-                />
-  </url><url>
-    <loc>https://stebs.dev/pt/tags/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stebs.dev/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://stebs.dev/pt/tags/"
                 />
   </url><url>
     <loc>https://stebs.dev/pt/posts/5-soft-skills-for-devs/</loc>
@@ -115,32 +160,6 @@
     <loc>https://stebs.dev/pt/tags/carreira/</loc>
     <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://stebs.dev/pt/categories/carreira/</loc>
-    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stebs.dev/categories/carreira/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://stebs.dev/pt/categories/carreira/"
-                />
-  </url><url>
-    <loc>https://stebs.dev/pt/tags/soft-skills/</loc>
-    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stebs.dev/tags/soft-skills/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://stebs.dev/pt/tags/soft-skills/"
-                />
-  </url><url>
     <loc>https://stebs.dev/pt/tags/brotopia/</loc>
     <lastmod>2021-02-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -154,13 +173,7 @@
                 href="https://stebs.dev/pt/tags/brotopia/"
                 />
   </url><url>
-    <loc>https://stebs.dev/pt/tags/igualdade-de-g%C3%AAnero/</loc>
-    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://stebs.dev/pt/tags/livros/</loc>
-    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://stebs.dev/pt/tags/mulheres-em-tecnologia/</loc>
     <lastmod>2021-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://stebs.dev/pt/tags/resenha-de-livro/</loc>
@@ -206,6 +219,30 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://stebs.dev/pt/posts/code-review-non-code-related/"
+                />
+  </url><url>
+    <loc>https://stebs.dev/pt/faq/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stebs.dev/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://stebs.dev/pt/faq/"
+                />
+  </url><url>
+    <loc>https://stebs.dev/pt/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stebs.dev/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://stebs.dev/pt/about/"
                 />
   </url>
 </urlset>
